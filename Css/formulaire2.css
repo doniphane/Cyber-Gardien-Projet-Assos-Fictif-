@@ -1,0 +1,131 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #000E20;
+  color: #0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  border: 2px solid #0F0;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #111;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+  width: 90%;
+  max-width: 400px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0F0;
+  font-size: 16px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: #0F0;
+  border: 1px solid #0F0;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.5) inset;
+}
+
+.input-group textarea {
+  resize: none;
+}
+
+.input-group input[type="submit"] {
+  background-color: #0F0;
+  color: #000;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.input-group input[type="submit"]:hover {
+  background-color: #080;
+  transform: scale(1.05);
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0F0;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.3);
+}
+
+.blink {
+  position: absolute;
+  top: 0;
+  right: -20px;
+  font-size: 20px;
+  animation: blink 1s infinite;
+}
+
+.logo a {
+  font-size: 1vw;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Handjet', cursive;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.logo span {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #e50f0f; 
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Handjet', cursive;
+}
+
+@keyframes blink {
+  0%, 100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+}
+
+::selection {
+  background-color: #0F0;
+  color: #000;
+}
+
+
+
+@media (min-width: 800px) {
+  .container {
+      max-width: 600px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+      max-width: 300px;
+  }
+}
+
+

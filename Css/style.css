@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../imgage/99.png);
+    background-color: #000E20;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-size: cover;
+    min-height: 100vh;
+    
+  }
+
+  .navbar-brandn,.nav-link{
+    font-family: 'Handjet', cursive;
+  }
+  .rouge span{
+    color: #e50f0f;
+   
+  }
+  
+  .texte h1{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-family: 'Handjet', cursive;
+    font-size: 5vw;
+    padding-top: 8vw;
+    margin-left: 1vw;
+    gap: 1rem;
+    text-transform: uppercase;
+  }
+  .texte span{
+    display: flex;
+    text-align: center;
+    color: #e50f0f;
+    font-family: 'Handjet', cursive;
+    font-size: 5vw;
+    
+   
+  }
+
+.texte2 p{
+    display: flex;
+    color: #fff;
+    font-family: 'Handjet', cursive;
+    font-weight: 600;
+    font-size: 2vw;
+   
+  }
+
+  .Enregistrement span{
+    color: #fff;
+  
+  }
+
+  .Enregistrement a{
+    display: flex;
+ justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    color: #ee0b0b;
+    font-family: 'Handjet', cursive;
+    font-size: 2vw;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+   .texte h1{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-family: 'Handjet', cursive;
+    font-size: 10vw;
+    padding-top: 8vw;
+    margin-left: 1vw;
+    gap: 1rem;
+    text-transform: uppercase;
+   }
+
+   .texte span{
+    display: flex;
+    text-align: center;
+    color: #e50f0f;
+    font-family: 'Handjet', cursive;
+    font-size: 8vw;
+    
+   
+  }
+
+  .texte2 p{
+    display: flex;
+    color: #fff;
+    font-family: 'Handjet', cursive;
+    font-weight: 600;
+    font-size: 8vw;
+    padding-top: 2vw;
+    
+   
+  }
+
+  .Enregistrement a{
+    display: flex;
+ justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    color: #ee0b0b;
+    font-family: 'Handjet', cursive;
+    font-size: 6vw;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  }
+

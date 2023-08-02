@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../imgage/10.png);
+    background-color: #000E20;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-size: cover;
+    min-height: 100vh;
+    
+  }
+  
+  /* Style de la  navbar */
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    color: #fff;
+   
+  }
+  
+  /* Style du  logo texte */
+  .logo a {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Handjet', cursive;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .logo span {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #e50f0f;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Handjet', cursive;
+  }
+
+  .texte h1{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-family: 'Handjet', cursive;
+    font-size: 5vw;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+
+  .membre{
+    display: flex;
+    justify-content: center;
+  }
+
+  .membre img{
+    width: 55vw;
+    height: auto;
+  }
+  .membre2{
+    display: none;
+    
+  }
+  .membre3{
+    display: none;
+    
+  }
+  .membre4{
+    display: none;
+    
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .membre{
+      display: none;
+      
+    }
+
+    .membre2{
+      display: flex;
+      justify-content: center;
+      border-radius: 15px;
+      padding: 10px;
+      
+    }
+    .membre3{
+      display: flex;
+      justify-content: center;
+      border-radius: 15px;
+      padding: 10px;
+      
+      
+    }
+    .membre4{
+      display: flex;
+      justify-content: center;
+      border-radius: 10px;
+      
+    }
+
+    .logo a {
+      font-size: 6vw;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Handjet', cursive;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  
+    .logo span {
+      font-size: 6vw;
+      font-weight: bold;
+      color: #e50f0f;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: 'Handjet', cursive;
+    }
+
+    .texte h1{
+      display: flex;
+      text-align: center;
+      color: #fff;
+      font-family: 'Handjet', cursive;
+      font-size: 8vw;
+      text-transform: uppercase;
+      justify-content: center;
+    }
+  } 

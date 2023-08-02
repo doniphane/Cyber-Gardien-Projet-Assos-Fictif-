@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../imgage/Hackers\ team\ working\ with\ computers.jpg);
+    background-color: #000E20;
+    backdrop-filter: blur(0.9vw);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    
+  }
+    /* Style de la  navbar */
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    color: #fff;
+   
+  }
+  
+  /* Style du  logo texte */
+  .logo a {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Handjet', cursive;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .logo span {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #e50f0f;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Handjet', cursive;
+  }
+      
+      .texte h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: #fff;
+        font-family: 'Handjet', cursive;
+        font-size: 5vw;
+        text-transform: uppercase;
+      }
+     
+      .card-group{
+        gap: 1vw;
+      }
+
+      .card-title{
+        color: #e50f0f;
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+
+      .card-text{
+        color: black;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif , bold;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .logo a {
+          font-size: 6vw;
+          font-weight: bold;
+          color: #fff;
+          text-decoration: none;
+          font-family: 'Handjet', cursive;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      
+        .logo span {
+          font-size: 6vw;
+          font-weight: bold;
+          color: #e50f0f;
+          text-decoration: none;
+          cursor: pointer;
+          font-family: 'Handjet', cursive;
+        }
+            
+      }
